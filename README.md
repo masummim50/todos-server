@@ -1,55 +1,109 @@
-# lws-json-server-todos
+[![Youtube][youtube-shield]][youtube-url]
+[![Facebook][facebook-shield]][facebook-group-url]
 
-Example in memory todos api with json-server by Learn with Sumit
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <img src="https://avatars.githubusercontent.com/u/73503432?v=4" alt="Logo" width="80" height="80" />
+    <h3 align="center"><a href="https://learnwithsumit.com/courses/think-in-a-redux-way/project-part-4">THINK IN A REDUX WAY - MODULE 4 - LESSON 8</a></h3>
+</p>
 
-# Installation
+<!-- TABLE OF CONTENTS -->
 
-```bash
-git clone git@github.com:learnwithsumit/lws-json-server-todos.git
-cd lws-json-server-todos
-npm install json-server
-npm start
-```
+## ![tableOfContent][tableofcontent-shield] Table of Contents
 
-Now opens:
+| HTML TEMPLATE                            | SERVER TEMPLATE                              | CODE RUN                   | CONTACT                    |
+| ---------------------------------------- | -------------------------------------------- | -------------------------- | -------------------------- |
+| [Get HTML template](#-get-html-template) | [Get SERVER template](#-get-server-template) | [How to run](#-how-to-run) | [Contact us](#-contact-us) |
 
-- http://localhost:3000
+<br>
 
-You now have a full REST API. Test with POSTMAN or any other REST Client):
+<!-- GET HTML TEMPLATE -->
 
-Retrieve all (GET):
+## ![htmlIcon][htmlicon-shield] Get HTML Template
 
-```bash
-GET http://localhost:3000/todos
-```
+You can find the raw HTML template of the todo application from the "html_template" folder.
 
-Retrieve one (GET):
+<!-- GET SERVER TEMPLATE -->
 
-```bash
-GET http://localhost:3000/todos/1
-```
+## ![serverIcon][servericon-shield] Get SERVER Template
 
-Post a todo (POST):
+You can find the raw SERVER template of the todo application from the "lws-json-server-todos" folder.
 
-```bash
-POST http://localhost:3000/todos text="Learn Redux" completed=false color="red"
-```
+<!-- HOW TO RUN -->
 
-Update todo (PUT):
+## ![rocketIcon][rocketicon-shield] How to run
 
-```bash
-PUT http://localhost:3000/todos/3 name="Learn Redux with Learn with Sumit" completed=true color="green"
-```
+Please follow the below instructions to run this branch in your machine:
 
-Delete todo (DELETE):
+1. Login to the GitHub account on which you have been granted access to this repository. If you have purchased the course but didn't get the access to this repository, please contact our support team. You will find contact details below.
 
-```bash
-DELETE http://localhost:3000/todos/1
-```
+2. Clone this repository -
+   ```sh
+   git clone https://github.com/Learn-with-Sumit/think-in-a-redux-way.git
+   ```
+3. Go to the cloned project directory
+   ```sh
+   cd think-in-a-redux-way
+   ```
+4. Checkout/switch to branch 4.8
+   ```sh
+   git checkout 4.8
+   ```
+5. Install dependencies
+   ```sh
+   npm i
+   ```
+6. Install VS Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) & start the server.
+   ```sh
+   npm start
+   ```
+7. Your app should be available in http://localhost:3000
 
+<br>
 
-# Links
+Please follow the below instructions to run server in your machine:
 
-- https://github.com/typicode/json-server
-- Jswon view Chrome plugin: https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc
-- Learn with Sumit official website: htts://learnwithsumit.com
+1. Go to the server directory
+   ```sh
+   cd lws-json-server-todos
+   ```
+2. Install dependencies
+   ```sh
+   npm i
+   ```
+3. Start the server
+   ```sh
+   npm start
+   ```
+
+<br>
+
+<!-- CONTACT  -->
+
+## ![contactIcon][contacticon-shield] Contact us
+
+[![Facebook][facebook-shield]][facebook-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Instagram][instagram-shield]][instagram-url]
+[![mail][mail-shield]][mail-url]
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[youtube-shield]: https://img.shields.io/badge/-Youtube-black.svg?style=flat-square&logo=youtube&color=555&logoColor=white
+[youtube-url]: https://youtube.com/LearnwithSumit
+[facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=flat-square&logo=facebook&color=555&logoColor=white
+[facebook-url]: https://facebook.com/letslearnwithsumit
+[facebook-group-url]: https://facebook.com/groups/learnwithsumit
+[instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=flat-square&logo=instagram&color=555&logoColor=white
+[instagram-url]: https://instagram.com/learnwithsumit
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/company/learnwithsumit
+[thumbnail-shield]: https://i.ibb.co/d6hxnvd/Screenshot-50.png
+[mail-shield]: https://img.shields.io/badge/%F0%9F%93%A7%20Email-support%40learnwithsumit.com-lightgray
+[mail-url]: mailto:support@learnwithsumit.com
+[tableofcontent-shield]: https://img.icons8.com/external-flatart-icons-flat-flatarticons/28/undefined/external-direction-business-and-teamwork-flatart-icons-flat-flatarticons.png
+[htmlicon-shield]: https://img.icons8.com/external-flaticons-flat-flat-icons/28/undefined/external-html-computer-programming-flaticons-flat-flat-icons.png
+[servericon-shield]: https://img.icons8.com/external-itim2101-flat-itim2101/28/undefined/external-server-network-technology-itim2101-flat-itim2101-2.png
+[rocketicon-shield]: https://img.icons8.com/arcade/30/undefined/experimental-rocket-arcade.png
+[contacticon-shield]: https://img.icons8.com/external-flaticons-lineal-color-flat-icons/28/undefined/external-support-communication-media-flaticons-lineal-color-flat-icons.png
